@@ -1,0 +1,14 @@
+{
+  "inputDocuments": {
+    "gcsPrefix": {
+      "gcsUriPrefix": "INPUT_BUCKET_FOLDER"
+    }
+  },
+  "documentOutputConfig": {
+    "gcsOutputConfig": {
+      "gcsUri": "OUTPUT_BUCKET_FOLDER",
+      "fieldMask": "FIELD_MASK"
+    }
+  },
+  "skipHumanReview": BOOLEAN
+}
